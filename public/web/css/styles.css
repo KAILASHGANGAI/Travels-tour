@@ -11,15 +11,48 @@ h1, .section-title{
     position: fixed; /* Position the navbar over the banner */
     width: 100%;
     z-index: 1000; /* Ensure the navbar is above other elements */
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
+
+.btn-warning{
+    background-color: #ff6e01;
+    color: #fff;
+}
+.btn-outline-warning{
+    border-color: #ff6e01;
+    color: #ff6e01;
+}
+/* Ensure dropdown appears on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Optional: Adjusts the dropdown's position */
+}
+
+/* Optional: Customize dropdown appearance */
+.navbar .dropdown-menu {
+    background-color: #ff6e01; /* Dark background color */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.navbar .dropdown-item {    
+    color: #fff; /* White text color */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #cf850d; /* Slightly lighter color on hover */
+    color: #fff; /* White text color on hover */
+}
+
 .bg-transparent {
     background-color: transparent !important;
 }
 
 .bg-orange {
     /* background-color: #ed3136 !important;  */
-    /* background-color: #ff6e01; */
-    background-color: #cf850d;
+    background-color: #ff6e01;
+    /* background-color: #cf850d; */
 }
 .hero-btn{
     font-size: 10px;
@@ -27,7 +60,9 @@ h1, .section-title{
 .hero-text{
     font-size: 12px;
 }
-
+.display-6{
+    color: #800000;
+}
 .hero-section {
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -43,13 +78,13 @@ h1, .section-title{
 }
 .hero-section {
   
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .hero-content{
-    padding-top: 40vh;
+    padding-top: 50vh;
 }
 
 .search-bar .input-group {
@@ -120,7 +155,7 @@ h1, .section-title{
 
 .bg-footer{
     background-image: 
-    linear-gradient(#cf850d, rgba(0, 0, 0, 0.8)), 
+    linear-gradient(#ff6e01, rgba(0, 0, 0, 0.8)), 
     url('../images/pasupati.jpg');
     /* background-image: url('../images/pasupati.jpg'); */
     background-size: cover;

@@ -26,7 +26,7 @@
             <h6 class="text-start text-dark fw-bold">Countries To Travel</h6>
             <div class="col-md-3">
                 <div class="text-dark">
-                    <h5 class="text-start fw-bold">INDIA</h5>
+                    <h6 class="text-start fw-bold">INDIA</h6>
 
                     <img src="{{ asset('web/images/pasupati.jpg') }}" class="card-img-top" alt="India">
                     <div class="d-flex justify-content-between my-2">
@@ -41,7 +41,7 @@
 
             <div class="col-md-3">
                 <div class="text-dark">
-                    <h5 class="text-start fw-bold">INDIA</h5>
+                    <h6 class="text-start fw-bold">INDIA</h6>
 
                     <img src="{{ asset('web/images/pasupati.jpg') }}" class="card-img-top" alt="India">
                     <div class="d-flex justify-content-between my-2">
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-3">
                 <div class="text-dark">
-                    <h5 class="text-start fw-bold">INDIA</h5>
+                    <h6 class="text-start fw-bold">INDIA</h6>
 
                     <img src="{{ asset('web/images/pasupati.jpg') }}" class="card-img-top" alt="India">
                     <div class="d-flex justify-content-between my-2">
@@ -69,7 +69,7 @@
             </div>
             <div class="col-md-3">
                 <div class="text-dark">
-                    <h5 class="text-start fw-bold">INDIA</h5>
+                    <h6 class="text-start fw-bold">INDIA</h6>
 
                     <img src="{{ asset('web/images/pasupati.jpg') }}" class="card-img-top" alt="India">
                     <div class="d-flex justify-content-between my-2">

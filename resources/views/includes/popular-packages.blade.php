@@ -1,5 +1,5 @@
 <div class="container mt-5">
-    <h1 class="text-center my-5 section-itle">Tour Packages    </h1>
+    <h1 class="text-center my-5 fw-bold text-capitalize display-6">Tour Packages    </h1>
 
     <div class="row">
         <!-- Card 1 -->

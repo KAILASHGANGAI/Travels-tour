@@ -1,5 +1,5 @@
 <div class="container py-5">
-    <h2 class="text-center mb-5 section-title">Popular Temples Of Nepal</h2>
+    <h2 class="text-center mb-5 fw-bold text-capitalize display-6">Popular Temples Of Nepal</h2>
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card temple-card shadow-lg">
