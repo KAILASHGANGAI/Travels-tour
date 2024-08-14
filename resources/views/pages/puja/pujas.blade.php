@@ -67,7 +67,7 @@
                                     <p class="card-text text-muted">Rs. 2,500 - Rs. 35000</p>
 
                                     <p>India Spiritual Tour with Taj Mahal has been specially crafted...</p>
-                                    <a href="#" class="btn btn-danger btn-sm">View Details</a>
+                                    <a href="{{ route('pujaDetails') }}" class="btn btn-danger btn-sm">View Details</a>
 
                                 </div>
                                 <div class="float-end pt-5 px-4 mt-4">
