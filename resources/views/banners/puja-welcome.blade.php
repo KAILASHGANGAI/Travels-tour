@@ -58,7 +58,7 @@
                 </div>
             </div> --}}
           <div class="text-center">
-            <button type="submit" class="btn btn-warning btn-block m-4">Book Appoinment</button>
+            <button type="submit" class="btn btn-warning btn-block m-4">Search Flight</button>
           </div>
         </form>
     </div>
@@ -100,5 +100,31 @@
         padding: 10px 20px;
     }
 
-   
+    .search-form {
+        position: absolute;
+        top: 15%;
+        right: 4%;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px 30px 0 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .search-form label {
+        font-weight: bold;
+    }
+
+    .search-form .form-control {
+        border-radius: 20px;
+    }
+
+    .search-form button {
+        background-color: #f9a825;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
 </style>
