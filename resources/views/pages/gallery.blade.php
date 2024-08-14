@@ -43,7 +43,7 @@
 <div class="container">
     
  <div class="container">
-   Sisnovateinc@boy123
+   
     {{-- <div class="portfolio-menu mt-2 mb-4 text-center">
        <ul>
           <li class="btn btn-outline-dark active" data-filter="*">All</li>
@@ -52,7 +52,7 @@
           <li class="btn btn-outline-dark text" data-filter=".selfie">selfie</li>
        </ul>
     </div> --}}
-    <div class="portfolio-item my-5 row">
+    <div class="portfolio-item py row">
        <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
           <a href="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
           <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg" alt="">
