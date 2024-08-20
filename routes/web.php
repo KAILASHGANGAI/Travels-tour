@@ -21,5 +21,6 @@ Route::view('/puja-packages','pages.packages.packages')->name('packages');
 Route::view('/hotels', 'pages.hotels.hotels')->name('hotels');
 Route::view('/gallery', 'pages.gallery')->name('gallery');
 Route::view('/blogs', 'pages.blogs.blogs')->name('blogs');
+Route::view('/blog-details', 'pages.blogs.single-blogs')->name('blogs.single');
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/contact', 'pages.contact')->name('contact');
