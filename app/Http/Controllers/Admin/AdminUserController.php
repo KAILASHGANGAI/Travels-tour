@@ -10,12 +10,12 @@ class AdminUserController extends Controller
 {
     public function showLoginForm()
     {
-        return view('auth.admin-login');
+        return view('admin.auth.login');
     }
 
     public function login(Request $request)
     {
-        $this->validate($request, [
+        $request->validate( [
             'email' => 'required|email',
             'password' => 'required|min:6',
         ]);
