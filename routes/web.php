@@ -30,3 +30,5 @@ Route::view('/blogs', 'pages.blogs.blogs')->name('blogs');
 Route::view('/blog-details', 'pages.blogs.single-blogs')->name('blogs.single');
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/contact', 'pages.contact')->name('contact');
+
+require base_path('routes/admin/admin.php');
