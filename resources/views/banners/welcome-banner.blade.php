@@ -22,9 +22,10 @@
             </div>
         </div>
 
-        <div class="container countries-travel  row justify-content-center">
+        <div class="container countries-travel   justify-content-center">
             <h6 class="text-start text-dark fw-bold">Countries To Travel</h6>
-            <div class="col-md-3">
+           <div class="owl-carousel">
+            <div class="item">
                 <div class="text-dark">
                     <h6 class="text-start fw-bold">INDIA</h6>
 
@@ -39,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="item">
                 <div class="text-dark">
                     <h6 class="text-start fw-bold">INDIA</h6>
 
@@ -53,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="item">
                 <div class="text-dark">
                     <h6 class="text-start fw-bold">INDIA</h6>
 
@@ -67,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="item">
                 <div class="text-dark">
                     <h6 class="text-start fw-bold">INDIA</h6>
 
@@ -81,7 +82,9 @@
                     </div>
                 </div>
             </div>
+           </div>
         
         </div>
     </div>
 </div>
+<script></script>

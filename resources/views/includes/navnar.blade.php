@@ -69,6 +69,28 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
+                    @auth('customer')
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user"></i> {{ Auth::guard('customer')->user()->name }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('customer.logout') }}"
+                                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                    Logout
+                                </a>
+                                <form id="logout-form" action="{{ route('customer.logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    @else
+
                     <li class="nav-item">
                         <a class="nav-link text-white" href="{{ route('login') }}">
                             <i class="fas fa-sign-in-alt"></i> Login
@@ -79,6 +101,8 @@
                             <i class="fas fa-user-plus"></i> Sign Up
                         </a>
                     </li>
+
+                    @endauth
                 </ul>
             </div>
         </div>

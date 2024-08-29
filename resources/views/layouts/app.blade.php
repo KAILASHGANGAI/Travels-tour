@@ -18,5 +18,7 @@
     @include('includes.footer')
     @yield('scripts')
     @include('includes.scripts')
+    @include('sweetalert::sweetalert')
+
 </body>
 </html>

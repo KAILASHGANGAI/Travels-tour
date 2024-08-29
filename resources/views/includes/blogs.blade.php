@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Understanding the Importance of Griha Pravesh Puja</h5>
                     <p class="card-text">Griha Pravesh Puja is a traditional Hindu ceremony that is performed when one enters a new home...</p>
-                    <a href="#" class="btn btn-warning">Read More</a>
+                    <a href="{{ route('blogs.single', 1) }}" class="btn btn-warning">Read More</a>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                 <div class="card-body">
                     <h5 class="card-title">The Spiritual Significance of Satyanarayan Puja</h5>
                     <p class="card-text">Satyanarayan Puja is one of the most popular rituals performed to worship the Lord Vishnu...</p>
-                    <a href="#" class="btn btn-warning">Read More</a>
+                    <a href="{{ route('blogs.single', 1) }}" class="btn btn-warning">Read More</a>
                 </div>
             </div>
         </div>
@@ -29,13 +29,13 @@
                 <div class="card-body">
                     <h5 class="card-title">Why Rudrabhishek Puja is Essential for Mental Peace</h5>
                     <p class="card-text">Rudrabhishek Puja is a powerful ritual performed to please Lord Shiva and to seek his blessings...</p>
-                    <a href="#" class="btn btn-warning">Read More</a>
+                    <a href="{{ route('blogs.single', 1) }}" class="btn btn-warning">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="text-center mt-4">
-        <a href="#" class="btn btn-warning text-white">See all our Blogs</a>
+        <a href="{{ route('blogs.single', 1) }}" class="btn btn-warning text-white">See all our Blogs</a>
     </div>
 </div>
